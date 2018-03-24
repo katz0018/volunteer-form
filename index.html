@@ -2,7 +2,13 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>volunteer-form</title>
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+
 </head>
 <body>
 
@@ -17,13 +23,13 @@
     <legend>Personal details</legend>
     <div>
       <label for="name">Full name</label>
-      <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+      <p class="push-0">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
       <input id="name">
     </div>
 
     <div>
       <label for="name" name="call">What should we call you?</label>
-      <p>What all your friends call you, e.g. “Liz”.</p>
+      <p class="push-0">What all your friends call you, e.g. “Liz”.</p>
       <input id="name" name="call">
     </div>
 
@@ -50,7 +56,7 @@
     </div>
     <div>
       <label for="email">Email</label>
-      <p>Phone number (optional)</p>
+      <p class="push-0">Phone number (optional)</p>
       <input id="email" type="email" required>
     </div>
 
@@ -201,6 +207,9 @@
     <textarea id="message"></textarea>
 
     <button type="submit">Apply</button>
+    <footer>
+      <p class="push-0">© Tree Hugger International Organization</p>
+    </footer>
   </form>
 
 </body>
