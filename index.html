@@ -13,8 +13,7 @@
 <body>
 
   <form action="https://formspree.io/bradlet@algonquincollege.com"method="POST">
-
-    Volunteer Sign-up
+    <input type="hidden" name="_subject" value="Volunteer Sign-up">
     <header>
       <h1>Apply to be a tree planter</h1>
       <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
@@ -180,33 +179,46 @@
         <label for="speak">Speaking to groups</label>
       </div>
     </fieldset>
-
-
     <legend>Do you have a valid driver’s license?</legend>
-    <input type="radio" id="yes" name="license">
-    <label for="yes">Yes</label>
+    <div>
+      <input type="radio" id="yes" name="license">
+      <label for="yes">Yes</label>
+    </div>
 
-    <input type="radio" id="no" name="license">
-    <label for="no">No</label>
+    <div>
+      <input type="radio" id="no" name="license">
+      <label for="no">No</label>
+    </div>
 
     <legend>Do you have a pick-up truck you’d be willing to use?</legend>
-    <input type="radio" id="yes" name="truck">
-    <label for="yes">Yes</label>
+    <div>
+      <input type="radio" id="yes" name="truck">
+      <label for="yes">Yes</label>
+    </div>
 
-    <input type="radio" id="no" name="truck">
-    <label for="no">No</label>
+    <div>
+      <input type="radio" id="no" name="truck">
+      <label for="no">No</label>
+    </div>
 
     <legend>Do you have up-to-date first-aid certification?</legend>
-    <input type="radio" id="yes" name="first-aid">
-    <label for="yes">Yes</label>
+    <div>
+      <input type="radio" id="yes" name="first-aid">
+      <label for="yes">Yes</label>
+    </div>
 
-    <input type="radio" id="no" name="first-aid">
-    <label for="no">No</label>
+    <div>
+      <input type="radio" id="no" name="first-aid">
+      <label for="no">No</label>
+    <div>
+      <label for="message">Please let us know any comments or questions you may have.</label>
+      <textarea id="message"></textarea>
+    </div>
 
-    <label for="message">Please let us know any comments or questions you may have.</label>
-    <textarea id="message"></textarea>
+    <div>
+      <button type="submit">Apply</button>
+    </div>
 
-    <button type="submit">Apply</button>
     <footer>
       <p class="push-0">© Tree Hugger International Organization</p>
     </footer>
