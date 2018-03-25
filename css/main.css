@@ -21,6 +21,10 @@ header h1, header p {
   font-family: serif;
 }
 
+form div label span {
+  color: #6e8c62;
+}
+
 footer {
   background-color: #70ad55;
 }
