@@ -32,3 +32,7 @@ footer {
 footer p {
   color: #fff;
 }
+
+input , select {
+  border-color: #6e8c62;
+}
