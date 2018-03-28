@@ -12,7 +12,6 @@
 </head>
 <body>
 
-  <div class="grid">
     <section class="unit wrapper">
       <header class="pad-t-1-4 pad-b-2 push-2">
         <h1 class="exa gutter-1-2 pad-t-1-2 push-1-2">Apply to be a tree planter</h1>
@@ -21,14 +20,15 @@
 
 
       <form class="gutter-1-2 wrapper" action="https://formspree.io/bradlet@algonquincollege.com" method="POST">
-        <input type="hidden" name="_subject" value="Volunteer Sign-up">
+        <input type="hidden" value="Volunteer Sign-up">
         <fieldset>
           <legend class="bold mega pad-b-1-2 pad-t-1-2">Personal details</legend>
-          <div class="pad-t-1-2">
-            <label for="full-name">Full name</label>
-            <input id="full-name">
-            <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
-          </div>
+          <div class="grid">
+            <div class="unit pad-t-1-2">
+              <label for="full-name">Full name</label>
+              <input id="full-name">
+              <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            </div>
 
           <div class="pad-t-1-2 pad-b-1-2">
             <label for="call">What should we call you?</label>
@@ -61,8 +61,6 @@
             <label for="email">Email</label>
             <input id="email" type="email" required>
           </div>
-  </div>
-
 
           <div class="pad-t-1-2 pad-b-1-2">
             <label for="phone-number">Phone number<span class="italic"> (optional)</span></label>
