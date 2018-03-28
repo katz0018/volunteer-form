@@ -32,3 +32,7 @@ footer p {
 input , select {
   border-color: #6e8c62;
 }
+
+fieldset {
+  border: none;
+}
