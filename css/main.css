@@ -36,3 +36,7 @@ input, select {
 fieldset {
   border: none;
 }
+
+hr {
+  border: solid 1px #6e8c62;
+}
