@@ -30,7 +30,7 @@ footer p {
 }
 
 input, select {
-  border: solid 1px #6e8c62;
+  border-color: #6e8c62;
 }
 
 fieldset {
@@ -38,5 +38,5 @@ fieldset {
 }
 
 hr {
-  border: solid 1px #70ad55;
+  border-color: #70ad55;
 }
