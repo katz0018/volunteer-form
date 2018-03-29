@@ -3,25 +3,26 @@
 <head>
   <meta charset="utf-8">
   <title>volunteer-form</title>
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
 </head>
 <body>
   <section>
     <header class="pad-t-1-4 pad-b-2 push-2">
-      <h1 class="exa gutter-1-2 pad-t-1-2 push-1-2">Apply to be a tree planter</h1>
-      <p class="gutter-1-2 mega push-0 pad-b-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+      <h1 class="zetta gutter-1-2 pad-t-1-2 push-1-2">Apply to be a tree planter</h1>
+      <p class="gutter-1-2 mega push-0 pad-b-1-4">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </header>
   </section>
   <section class="wrapper">
     <form class="gutter-1-2 wrapper" action="https://formspree.io/bradlet@algonquincollege.com" method="POST">
       <input type="hidden" value="Volunteer Sign-up">
       <fieldset>
-        <legend class="bold mega pad-b-1-2 pad-t-1-2">Personal details</legend>
+        <legend class="bold mega pad-b-1-2 pad-t-1-4">Personal details</legend>
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t-1-2">
             <div>
@@ -29,7 +30,6 @@
               <input id="full-name">
               <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
             </div>
-
             <div class="pad-t-1-2 pad-b-1-2">
               <label for="date">Date of birth</label>
               <input id="date" type="date">
@@ -236,12 +236,10 @@
         </div>
       </fieldset>
 
-      <fieldset>
-        <div class="pad-b-1-2 pad-t-1-2">
-          <label class="pad-b-1-2 bold" for="message">Please let us know any comments or questions you may have.<span> (optional.)</span></label>
-          <textarea id="message"></textarea>
-        </div>
-      </fieldset>
+      <div class="pad-b-1-2 pad-t-1-2">
+        <label class="pad-b-1-2 bold" for="message">Please let us know any comments or questions you may have.<span> (optional.)</span></label>
+        <textarea id="message"></textarea>
+      </div>
 
       <div class="pad-b-1-2 text-center">
         <button class="btn" type="submit">Apply</button>
