@@ -40,3 +40,6 @@ fieldset {
 hr {
   border: solid 1px #6e8c62;
 }
+input {
+  border: solid #70ad55;
+}
