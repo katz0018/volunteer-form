@@ -1,6 +1,5 @@
 html {
-font-family: 'Noto Serif', serif;
-
+  font-family: "Noto Serif", serif;
 }
 
 header {
@@ -40,5 +39,4 @@ fieldset {
 
 hr {
   border: solid 1px #70ad55;
-
 }
