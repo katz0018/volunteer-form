@@ -1,5 +1,6 @@
 html {
-  font-family: "Noto Serif", serif;
+font-family: 'Noto Serif', serif;
+
 }
 
 header {
@@ -30,7 +31,7 @@ footer p {
 }
 
 input, select {
-  border:solid .5px #70ad55;
+  border: solid 1px #6e8c62;
 }
 
 fieldset {
